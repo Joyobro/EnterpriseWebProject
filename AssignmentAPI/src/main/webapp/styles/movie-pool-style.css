@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+.html{
+	background-color: #F4F9F4;
+}
+
+.loadingModal{
+  z-index: 999; /* or any other high number */
+}
+.header{
+	background-color: #74B49B;
+	color: WHITE;
+	
+}
+html{
+	background-color: #74B49B;
+}
+body{
+	background-color: #74B49B;
+	
+}
+
+fieldset, legend{
+	background-color: #74B49B;
+	color: WHITE;
+	border: 3px WHITE;
+}
+.btn-addBtn{
+	background-color: #74B49B;
+	border: none;
+	color: WHITE;
+}
+title{
+	background-color: #74B49B;
+}
+
+#filmTable{
+	background-color: #5C8D89;
+	margin-top: 8px;
+	border: WHITE;
+}
+img{
+	width: 30px;
+	height: 30px;
+}
+#updateFilm{
+	background-color: #5C8D89;
+	border: none;
+}
+#deleteFilm{
+ 	background-color: #5C8D89;
+	border: none;
+ }
+#btnSearchID #btnSearchTitle{
+	background-color: #5C8D89;
+	border: none;
+}
+.form-popup{
+	display: none;
+	position: center;
+	border: 3px solid #5C8D89;
+	
+}
+.modal-dialog{
+	max-width: 3000px;
+	padding: 10px;
+	background-color: #74B49B;
+}
+
+.form-container input[type=text], .form-container input[type=year]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.form-container .btn {
+	background-color: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+.form-container .btn-cancel {
+	background-color: red;
+	color: white;
+	border: none;
+}
+
+.form-container .btn:hover, open-button:hover {
+	opacity: 1;
+}
+
+.spinner::before {
+    content: "";
+    position: bottom-center;
+    border: solid 2px transparent;
+    border-top-color: #74B49B;
+    border-left-color: #74B49B;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    display: block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
